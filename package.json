@@ -1,0 +1,24 @@
+{
+  "name": "summernote-ext-github-emojis",
+  "version": "1.0.0",
+  "description": "Github emojis plugin for summernote",
+  "main": "summernote-ext-github-emojis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siduko/summernote-ext-github-emojis"
+  },
+  "keywords": [
+    "summernote",
+    "github",
+    "emojis"
+  ],
+  "bugs": {
+    "url": "https://github.com/siduko/summernote-ext-github-emojis/issues"
+  },
+  "author": "Lai Vu <laivu.fly@gmail.com> (http://flydev.me)",
+  "license": "MIT",
+  "homepage": "http://siduko.github.io/summernote-ext-github-emojis"
+}
