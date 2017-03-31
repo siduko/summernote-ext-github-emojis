@@ -1,7 +1,7 @@
-Print plugin for Summernote
+Github emojis plugin for Summernote
 ===========================
 
-This plugin allows summernote prints its document, not whole web page.
+This plugin allows summernote insert github emojis its document.
 
 DEMO PAGE : <http://siduko.github.io/summernote-ext-github-emojis/>
 
@@ -35,8 +35,8 @@ Hint
 
 AUTHOR
 ------
-[@siduko](https://github.com/siduko/)
-[https://siduko.github.io](https://siduko.github.io)
+- [@siduko](https://github.com/siduko/)
+- [https://siduko.github.io](https://siduko.github.io)
 
 
 LICENSE
