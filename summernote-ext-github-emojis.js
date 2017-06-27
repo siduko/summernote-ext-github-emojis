@@ -71,7 +71,8 @@
           var $button = ui.button({
             callback : function ($node) {
               var content = emojiUrls[emoji];
-              $node.html('<img src="' + content + '" width="20" style="margin-left:-6px"/> :' + emoji + ':');
+              // 2017.06.27 Pedro Pelaez - Erased name text because it break table layout
+              $node.html('<img src="' + content + '" width="20" style="margin-left:-6px"/>');
               $node.attr('title', ':'+emoji);
               $node.attr('data-value', encodeURIComponent(emojiUrls[emoji]));
               $node.css({
@@ -136,7 +137,7 @@
 
         $.ajax({
           url: 'https://api.github.com/emojis',
-          async: false
+          async: true // 2017.06.27 Pedro Pelaez - Allow asynchronous calls, don't break anything and load better.
         }).done(function(data) {
           emojis = Object.keys(data);
           emojiUrls = data;
